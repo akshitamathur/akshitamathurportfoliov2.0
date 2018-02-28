@@ -11,7 +11,5 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-
-
-  content="This is the Home Component it is working!";
+  greeting = "Hello & Welcome";
 }
