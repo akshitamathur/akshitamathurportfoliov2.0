@@ -7,11 +7,12 @@
 	margin-left: 15%;
 }
 
-.social p{
+.social a{
 	padding: 2em;
+    color: #777777;
 }
 
-.social p:hover{
+.social a:hover{
 	color: #91A8D0;
 	transition-duration: 1s;
 }

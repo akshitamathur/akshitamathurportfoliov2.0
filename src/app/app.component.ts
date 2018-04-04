@@ -9,4 +9,7 @@ import { SocialComponent } from './social/social.component';
 })
 export class AppComponent {
   title = 'AKSHITA MATHUR';
+  
+ 
+
 }

@@ -9,7 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { LoadingComponent } from './loading/loading.component';
 import { MenuComponent } from './menu/menu.component';
 import { SocialComponent } from './social/social.component';
-import { AboutComponent } from './about/about.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { RouterModule, Routes, RouterLinkActive } from '@angular/router';
+import { ContactComponent } from './contact/contact.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
@@ -19,12 +22,21 @@ import { AboutComponent } from './about/about.component';
     LoadingComponent,
     MenuComponent,
     SocialComponent,
-    AboutComponent
+    ExperienceComponent,
+    ContactComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    RouterModule.forRoot([
+      { path: 'home', component: HomeComponent},
+      { path: 'experience', component: ExperienceComponent},
+      { path: 'projects', component: ProjectsComponent},
+      { path: 'contact', component: ContactComponent}
+
+      ])
   ],
   providers: [],
   bootstrap: [AppComponent]

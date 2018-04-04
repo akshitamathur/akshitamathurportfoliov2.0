@@ -3,7 +3,7 @@
 .vertical-menu {
     width: 100%;
     align-content: center;
-    padding-top: 3em;
+    /*padding-top: 3em;*/
     margin: 0;
 }
 
@@ -27,4 +27,8 @@
     color: #B76E79;
     color: white;
     text-shadow: 0px 0px 10px white;
+}
+
+.active{
+    margin: 0;
 }
