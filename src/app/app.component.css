@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800');
 
-body{
+body, html{
 	margin: 0;
 	padding: 0;
 	background-color: #999999;

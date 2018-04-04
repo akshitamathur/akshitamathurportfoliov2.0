@@ -1,23 +1,11 @@
-import { Component, AfterViewInit } from '@angular/core';
-import * as Chart from 'chart.js';
-
-@Component({
-  selector: 'app-experience',
-  templateUrl: './experience.component.html',
-  styleUrls: ['./experience.component.css']
-})
-export class ExperienceComponent{
-    id = 'langlib';
-    width = 600;
-    height = 400;
-    type = 'doughnut2d';
-    dataFormat = 'json';
-    dataSource;
-    title = 'Angular4 FusionCharts Sample';
- 
-    constructor() {
-        this.dataSource = {
-        "chart": {
+jQuery('document').ready(function () {
+            $("#chart-langlib").insertFusionCharts({
+                type: "bar2d",
+                width: "600",
+                height: "400",
+                dataFormat: "json",
+                dataSource: {
+                    "chart": {
         "caption": "LANGUAGES",
         "showLabels": "0",
         "showValues": "0",
@@ -45,11 +33,8 @@ export class ExperienceComponent{
         "toolTipBgColor": "#000000",
         "toolTipBorderColor": "#E5E5E5",
         "toolTipColor": "#FFFFFF"
-
-
-        
-    },
-    "data": [
+                    },
+                    "data": [
         {
             "label": "JAVA, C#",
             "value": "80",
@@ -67,10 +52,10 @@ export class ExperienceComponent{
             "toolText": "Working Knowledge"
         }
     ]
-}
-    }
-  
-   
-  }
+                }
+            });
+        });     
 
 
+
+ 
