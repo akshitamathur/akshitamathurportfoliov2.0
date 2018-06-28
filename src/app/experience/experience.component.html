@@ -1,37 +1,30 @@
 <p class="title">SKILLS</p>
 
-<div class="box col-6">
-	
-
-	<fusioncharts
-    [id]="id"
-    [width]="width"
-    [height]="height"
-    [type]="type"
-    [dataFormat]="dataFormat"
-    [dataSource]="dataSource">
-    </fusioncharts>
 
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+	       <fusioncharts
+            [id]="id"
+            [width]="width"
+            [height]="height"
+            [type]="type"
+            [dataFormat]="dataFormat"
+            [dataSource]="dataSource">
+            </fusioncharts>
+        </div>
 
+         <div class="col-lg-12">
+           <fusioncharts
+            [id]="id"
+            [width]="width"
+            [height]="height"
+            [type]="type"
+            [dataFormat]="dataFormat"
+            [dataSource]="dataSource">
+            </fusioncharts>
+        </div>
+    </div>
 </div>
-
-<div class="box">
 	
-	<p>Frameworks</p>
-
-	<fusioncharts
-    [id]="id"
-    [width]="width"
-    [height]="height"
-    [type]="type"
-    [dataFormat]="dataFormat"
-    [dataSource]="dataSource">
-    </fusioncharts>
-
-
-
-</div>
-
-	
-<router-outlet></router-outlet>
