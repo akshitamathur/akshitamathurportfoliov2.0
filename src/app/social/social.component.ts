@@ -12,4 +12,6 @@ export class SocialComponent implements OnInit {
   ngOnInit() {
   }
 
+  // socialmedia = ['Instagram', 'GitHub', 'CodePen', 'LinkedIn', 'Sound Cloud'];
+
 }

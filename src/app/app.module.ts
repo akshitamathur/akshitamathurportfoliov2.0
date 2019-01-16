@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 import * as FusionCharts from 'fusioncharts';
 import * as Charts from 'fusioncharts/fusioncharts.charts';
 import * as FintTheme from 'fusioncharts/themes/fusioncharts.theme.fint';
 import { FusionChartsModule } from 'angular4-fusioncharts';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
+
+
 
 
 import { AppComponent } from './app.component';
@@ -17,6 +20,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { RouterModule, Routes, RouterLinkActive } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
+
 
 FusionChartsModule.fcRoot(FusionCharts, Charts, FintTheme);
 
