@@ -14,138 +14,127 @@
             [dataSource]="dataSource">
             </fusioncharts> -->
 
-            <p class="title">LANGUAGES & FRAMEWORKS & TOOLS</p>
+            <p class="title">LANGUAGES</p>
             
-            <div id="skillbox" class="row">
+            <ul class="skills-bar-container">
 
-            <ngb-tabset #t="ngbTabset">
-            <ngb-tab id="favourites" title="&#9733; Expert Level Skills">
-                <ng-template ngbTabContent>
-                    <div class="tabContent row">
-                        <div class="col-lg-6">
-                                <p>HTML // CSS // JavaScript</p> <ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>JAVA // C#</p><ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                            </div>    
-                            <div class="col-lg-6">
-                                <p>jQuery</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>Angular 1.x - 4.x</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>
+                <li>
+                    <div class="progressbar-title">
+                        <h3 class="text-animation">HTML5</h3>
+                        <span class="percent" id="html-pourcent"></span>
                     </div>
-                </ng-template>
-            </ngb-tab>
+                    <div class="bar-container">
+                        <span class="progressbar progresspink" id="progress-html"></span>
+                    </div>
+                </li>
+                <li>
+                    <div class="progressbar-title">
+                        <h3 class="text-animation">CSS3</h3>
+                        <span class="percent" id="css-pourcent"></span>
+                    </div>
+                    <div class="bar-container">
+                    <span class="progressbar progressblue" id="progress-css"></span>
+                    </div>
+                </li>
+  
+                <li>
+                    <div class="progressbar-title">
+                        <h3 class="text-animation">JavaScript</h3>
+                        <span class="percent" id="javascript-pourcent"></span>
+                    </div>
+                    <div class="bar-container">
+                    <span class="progressbar progresspink" id="progress-javascript"></span>
+                    </div>
+                </li>
+  
+                <li>
+                    <div class="progressbar-title">
+                      <h3 class="text-animation">JAVA</h3>
+                      <span class="percent" id="java-pourcent"></span>
+                    </div>
+                    <div class="bar-container">
+                      <span class="progressbar progressblue" id="progress-java"></span>
+                    </div>
+                </li>
 
-            <ngb-tab id="comfortable">
-                <ng-template ngbTabTitle>&#9733; Even More Skills</ng-template>
-                    <ng-template ngbTabContent>
-                        <div class="tabContent row">
-                            <div class="col-lg-6">
-                                <p>C // C++</p> <ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>SQL Server // Queries</p><ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>SOMETHING ELSE</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>    
-                            <div class="col-lg-6">
-                                <p>Bootstrap</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>ASP.NET MVC</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>MongoDB</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>
-                        </div>
-                    </ng-template>
-            </ngb-tab>
-
-            <ngb-tab id="beginner">
-                <ng-template ngbTabTitle>&#9733; Work In Progress</ng-template>
-                    <ng-template ngbTabContent>
-                        <div class="tabContent row">
-                            <div class="col-lg-6">
-                                <p>NodeJS</p> <ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>React // Redox</p><ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>AWS</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>    
-                            <div class="col-lg-6">
-                                <p>Wordpress</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>Firebase</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>MS Azure</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>
-                        </div>
-                    </ng-template>
-            </ngb-tab>
-
-
-</ngb-tabset>
-
-
+                <li>
+                    <div class="progressbar-title">
+                      <h3 class="text-animation">C#</h3>
+                      <span class="percent" id="c-pourcent"></span>
+                    </div>
+                    <div class="bar-container">
+                      <span class="progressbar progresspink" id="progress-c"></span>
+                    </div>
+                </li>
+                  
+  
+            </ul>
         </div>
 
-         <div class="col-lg-12 nudge">
+         <div class="col-lg-12">
 
-            <p class="title">EXPERIENCE & CERTIFICATIONS</p>
-                    <div id="skillbox" class="row">
+            <p class="title">FRAMEWORKS</p>
+           <!-- <fusioncharts
+            [id]="frameworks"
+            [width]="width"
+            [height]="height"
+            [type]="type"
+            [dataFormat]="dataFormat"
+            [dataSource]="dataSource">
+            </fusioncharts> -->
 
-            <ngb-tabset #t="ngbTabset">
-            <ngb-tab id="favourites" title="&#9733; Experience in Tech">
-                <ng-template ngbTabContent>
-                    <div class="tabContent row">
-                        <div class="col-lg-6">
-                                <p>HTML // CSS // JavaScript</p> <ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>JAVA // C#</p><ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                            </div>    
-                            <div class="col-lg-6">
-                                <p>jQuery</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>Angular 1.x - 4.x</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>
+            <ul class="skills-bar-container">
+
+                <li>
+                    <div class="progressbar-title">
+                        <h3 class="text-animation">Angular 4</h3>
+                        <span class="percent" id="html-pourcent"></span>
                     </div>
-                </ng-template>
-            </ngb-tab>
-
-            <ngb-tab id="comfortable">
-                <ng-template ngbTabTitle>&#9733; Volunteering & Other</ng-template>
-                    <ng-template ngbTabContent>
-                        <div class="tabContent row">
-                            <div class="col-lg-6">
-                                <p>C // C++</p> <ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>SQL Server // Queries</p><ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>SOMETHING ELSE</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>    
-                            <div class="col-lg-6">
-                                <p>Bootstrap</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>ASP.NET MVC</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>MongoDB</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>
-                        </div>
-                    </ng-template>
-            </ngb-tab>
-
-            <ngb-tab id="beginner">
-                <ng-template ngbTabTitle>&#9733; Certifications</ng-template>
-                    <ng-template ngbTabContent>
-                        <div class="tabContent row">
-                            <div class="col-lg-6">
-                                <p>NodeJS</p> <ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>React // Redox</p><ngb-progressbar animated="true "value="90" showValue="true"></ngb-progressbar>
-                                <p>AWS</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>    
-                            <div class="col-lg-6">
-                                <p>Wordpress</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>Firebase</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                                <p>MS Azure</p><ngb-progressbar animated="true "value="80" showValue="true"></ngb-progressbar>
-                            </div>
-                        </div>
-                    </ng-template>
-            </ngb-tab>
-
-
-</ngb-tabset>
-
-
-
-
-                
-
-
-
-        </div>
-
-           
+                    <div class="bar-container">
+                        <span class="progressbar progresspink" id="progress-angular"></span>
+                    </div>
+                </li>
+                <li>
+                    <div class="progressbar-title">
+                        <h3 class="text-animation">CSS / SASS</h3>
+                        <span class="percent" id="css-pourcent"></span>
+                    </div>
+                    <div class="bar-container">
+                    <span class="progressbar progressblue" id="progress-css"></span>
+                    </div>
+                </li>
+  
+                <li>
+                    <div class="progressbar-title">
+                        <h3 class="text-animation">JavaScript / jQuery</h3>
+                        <span class="percent" id="javascript-pourcent"></span>
+                    </div>
+                    <div class="bar-container">
+                    <span class="progressbar progresspink" id="progress-javascript"></span>
+                    </div>
+                </li>
+  
+                <li>
+                    <div class="progressbar-title">
+                      <h3 class="text-animation">PHP</h3>
+                      <span class="percent" id="php-pourcent"></span>
+                    </div>
+                    <div class="bar-container">
+                      <span class="progressbar progressblue" id="progress-php"></span>
+                    </div>
+                </li>
+                  
+                <li>
+                    <div class="progressbar-title">
+                      <h3 class="text-animation">AngularJS</h3>
+                      <span class="percent" id="angular-pourcent"></span>
+                    </div>
+                    <div class="bar-container">
+                      <span class="progressbar progresspink" id="progress-angular"></span>
+                    </div>
+                </li>
+  
+            </ul>
 
           
         </div>
