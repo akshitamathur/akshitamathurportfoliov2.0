@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\node_modules\\postcss-load-plugins",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\experience",
+    "\\src\\app\\home",
+    "\\src\\app\\skills",
+    "\\src\\app\\social"
+  ],
+  "SelectedNode": "\\src\\app\\social\\social.component.css",
+  "PreviewInSolutionExplorer": false
+}

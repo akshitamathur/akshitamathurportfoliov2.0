@@ -17,6 +17,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { RouterModule, Routes, RouterLinkActive } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './skills/skills.component';
 
 FusionChartsModule.fcRoot(FusionCharts, Charts, FintTheme);
 
@@ -29,7 +30,8 @@ FusionChartsModule.fcRoot(FusionCharts, Charts, FintTheme);
     SocialComponent,
     ExperienceComponent,
     ContactComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ FusionChartsModule.fcRoot(FusionCharts, Charts, FintTheme);
     AngularFontAwesomeModule,
     FusionChartsModule,
     RouterModule.forRoot([
-      { path: 'home', component: HomeComponent},
+      { path: 'home', component: HomeComponent },
+      { path: 'skills', component: SkillsComponent },
       { path: 'experience', component: ExperienceComponent},
       { path: 'projects', component: ProjectsComponent},
       { path: 'contact', component: ContactComponent}
