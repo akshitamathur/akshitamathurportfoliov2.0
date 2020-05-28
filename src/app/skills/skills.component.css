@@ -32,16 +32,22 @@ ul li{
 li{
   list-style: none;
   font-size: 5em;
+  padding-left: 5%;
 }
 
-.fab:hover{
-  color: pink;
+.fab:hover {
+  color: #61a1e6;
 }
 
-.main{
+/*.main{
   background-color: deeppink;
+}*/
+
+.skill-description span{
+  font-size: 5px;
 }
 
 
-
-
+.titles{
+  display: inline;
+}
