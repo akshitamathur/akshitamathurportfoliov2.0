@@ -45,3 +45,40 @@ ul li{
     color: #61a1e6;
   }
 
+.progress {
+  font-size: 1rem;
+  height: 1.3rem;
+  border: 1.1px solid grey;
+  margin-bottom: 1rem;
+}
+
+.progress-bar {
+  background-color: pink;
+  font-weight: 800;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
+
+}
+
+.main{
+  text-align: center;
+}
+
+.btn-fancy{
+  color: darkgrey;
+  font-size: 4em;
+  margin-left: 0.5em;
+
+}
+.btn-fancy:hover {
+  color: cornflowerblue;
+  transition: all .9s ease;
+  -webkit-transition: all .9s ease;
+}
+
+.card {
+  background-color: #f4f1f1;
+  margin-bottom: 1em;
+  /*border-color: #f9ecec;*/
+  border-radius: 30px;
+}
