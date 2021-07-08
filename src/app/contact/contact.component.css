@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800');
+
+.mainLogo{
+	width: 10em;
+	margin-top: 4.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.about{
+	width: 85%;
+	background-color: #E5E5E5;
+	height: 24em;
+	margin-left: 4.5em;
+	margin-top: 2.9em;
+	padding: 20px;
+}
+
+p{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-style: 20px;
+	color: #777777;
+	text-align: center;
+}
+
+.lassondeLogo{
+
+}

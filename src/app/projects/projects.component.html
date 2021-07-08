@@ -1,24 +1,99 @@
-<p class="title">PROJECTS</p>
 
 
 
-<ul>
-   <!-- For filtering controls add -->
-   <li data-filter="all"> All items </li>
-   <li data-filter="1"> Category 1 </li>
-   <li data-filter="2"> Category 2 </li>
-   <li data-filter="3"> Category 3 </li>
-</ul>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+
+          <p class="title"> MY PROJECTS <i class="fas fa-clipboard-list" aria-hidden="true"></i></p>
+          <p class="page-description">Here are some of my personal projects. Click on the icons to view more. (click again to minimize)</p>
 
 
-<div class="filtr-container">
-    <div class="filtr-item" data-category="1" data-sort="value">
-       <img src="img/sample.jpg" alt="sample">
-    </div>
-    <div class="filtr-item" data-category="2, 1" data-sort="value">
-       <img src="img/sample.jpg" alt="sample">
-    </div>
-    <div class="filtr-item" data-category="1, 3" data-sort="value">
-       <img src="img/sample.jpg" alt="sample">
-    </div>
+
+
+          <!-- START ICONS FOR WORK EXPERIENCE SECTION -->
+          <div class="row">
+            <div class="main container col-lg-12">
+
+              <p></p>
+              <p>
+                <a class="btn btn-fancy fab fa-react" data-toggle="collapse" href="#react" role="button" aria-expanded="false" aria-controls="react"></a>
+
+                <a class="btn btn-fancy fab fa-angular" data-toggle="collapse" href="#angular" role="button" aria-expanded="false" aria-controls="angular"></a>
+
+                <a class="btn btn-fancy fab fa-html5" data-toggle="collapse" href="#html5" role="button" aria-expanded="false" aria-controls="html5"></a>
+
+              </p>
+            </div>
+          </div>
+
+          <!-- -------- CARD DATA : 1 ---------- -->
+
+          <div class="row" id="accordion">
+
+            <div class="col-lg-12">
+              <div class="collapse multi-collapse" id="react">
+                <div class="card card-body">
+                  <div class="row">
+                  <div class="col-lg-3"><i class="btn btn-fancy fab fa-react"></i></div>
+                  <div class="col-lg-9">
+                    <p class="companyName">Project 1: Personal Site</p>
+                    <p class="position"><a href="">View Code</a></p>
+                    <p class="duration">WIP</p>
+                    <p class="responsibilities">I'm creating this personal site to showcase my interests outside of acedemia. It's a place where I plan to link to various API's, specifically the SoundCloud, and Amazon Photos API.</p>
+
+                    <p class="companyName">Project 2: Marvel API Site</p>
+                    <p class="position"><a href="https://github.com/akshitamathur/superhero_charity">View Code</a> || <a href="https://drive.google.com/file/d/1mwlMqJ6zgn-JXuNzUHnL--YMoq1QIhh9/view?usp=sharing">Additional Stuff</a></p>
+                    <p class="duration">Complete -- but broken (WIP)</p>
+                    <p class="responsibilities">I created this project a little while ago for fun, and to hone my skills in React. It's a one page site, pulling from the Marvel API and acting as a fictional charity.</p>
+
+                    <p class="companyName">Project 3: Reddit API Pull</p>
+                    <p class="position"><a href="">View Code</a> || <a href="">Try It Out</a></p>
+                    <p class="duration">Complete</p>
+                    <p class="responsibilities">This is a simple project that simply pulls a certain amount of threads from the Reddit API and displays it on the screen.</p>
+                  </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="collapse multi-collapse" id="angular">
+                <div class="card card-body">
+                  <div class="row">
+                  <div class="col-lg-3"><i class="btn btn-fancy fab fa-angular"></i></div>
+                  <div class="col-lg-9">
+                    <p class="companyName">Project 1: Portfolio</p>
+                    <p class="position"><a href="https://github.com/akshitamathur/akshitamathurportfoliov2.0">View Code</a></p>
+                    <p class="duration">Complete (Updated Regularly)</p>
+                    <p class="responsibilities">This site works as my digital CV, and has links to my social media links, showcases my working skills with Angular, and shows my work experience as well.</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="collapse multi-collapse" id="html5">
+                <div class="card card-body">
+                  <div class="row">
+                  <div class="col-lg-3"><i class="btn btn-fancy fab fa-html5"></i></div>
+                  <div class="col-lg-9">
+                    <p class="companyName">Project 1: Old Portfolio</p>
+                    <p class="position"><a href="https://github.com/akshitamathur/akshitamathur.github.io">View Code</a> || <a href="https://akshitamathur.github.io/">View Site</a></p>
+                    <p class="duration">Complete (Retired)</p>
+                    <p class="responsibilities">My old portfolio created with HTML5, CSS3, Vanilla JS as well as jQuery. This incorporated Twitter Bootstrap as well to make the site responsive.</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- END : LANGUAGES -->
+
+
+        </div>
+    </div>
 </div>

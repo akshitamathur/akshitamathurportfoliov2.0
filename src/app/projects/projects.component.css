@@ -1,9 +1,127 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
-.title{
-	font-family: 'Nanum Gothic', sans-serif;
-	font-size: 30px;
-	text-align: center;
-	margin-top: 1em;
-	color: #777777;
+.title {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 30px;
+  /*margin-left: 45%;*/
+  text-align: center;
+  margin-top: 1em;
+  color: #777777;
+}
+
+.page-description{
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+}
+
+/*.box {
+  width: 85%;
+  height: 24em;
+  margin-left: 3em;
+  margin-top: 1.5em;
+  padding: 0;
+  color: #777777;
+}*/
+
+p {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 15px;
+  color: #777777;
+}
+
+
+ul li{
+  display: inline;
+  font-size: 5em;
+  color: dimgrey;
+  margin-left: 1%;
+  list-style: none;
+  text-align: center;
+}
+
+.fab:hover {
+    color: #61a1e6;
+  }
+
+.progress {
+  font-size: 1rem;
+  height: 1.3rem;
+  border: 1.1px solid grey;
+  margin-bottom: 1rem;
+}
+
+.progress-bar {
+  background-color: pink;
+  font-weight: 800;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
+
+}
+
+.main{
+  text-align: center;
+}
+
+.btn-fancy{
+  color: darkgrey;
+  font-size: 4em;
+  margin-left: 0.5em;
+
+}
+.btn-fancy:hover {
+  color: cornflowerblue;
+  transition: all .9s ease;
+  -webkit-transition: all .9s ease;
+}
+
+.card {
+  background-color: #f4f1f1;
+  margin-bottom: 1em;
+  /*border-color: #f9ecec;*/
+  border-radius: 30px;
+}
+
+.companyName{
+  font-size: 1.5em;
+  color: darkgrey;
+}
+
+.duration{
+  font-size: 1.10em;
+  color: cornflowerblue;
+}
+.position{
+  font-size: 1.10em;
+  font-style: italic;
+}
+
+.logo{
+  width: 9em;
+  margin-top: 6em;
+}
+
+.janssenicon{
+  width: 9em;
+  margin-right: -2em;
+
+}
+
+.bmoicon{
+  width: 6em;
+  margin-left: 1em;
+}
+
+.ppgicon{
+  width: 7em;
+  margin-left: 2em;
+}
+.indigoicon{
+  width: 6em;
+  margin-left: 2em;
+}
+
+.lifeicon{
+  width: 7em;
 }

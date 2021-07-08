@@ -1,323 +1,127 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 .title {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 30px;
+  /*margin-left: 45%;*/
   text-align: center;
   margin-top: 1em;
   color: #777777;
 }
 
-.box {
+.page-description{
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+}
+
+/*.box {
   width: 85%;
-  /*background-color: #E5E5E5;*/
   height: 24em;
   margin-left: 3em;
   margin-top: 1.5em;
   padding: 0;
-}
-
+  color: #777777;
+}*/
 
 p {
   font-family: 'Nanum Gothic', sans-serif;
-  font-style: 20px;
+  font-size: 15px;
   color: #777777;
+}
+
+
+ul li{
+  display: inline;
+  font-size: 5em;
+  color: dimgrey;
+  margin-left: 1%;
+  list-style: none;
   text-align: center;
 }
 
+.fab:hover {
+    color: #61a1e6;
+  }
 
-.skills-bar-container {
-  position: relative;
-  width: 40%;
-  min-width: 300px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  list-style: none;
+.progress {
+  font-size: 1rem;
+  height: 1.3rem;
+  border: 1.1px solid grey;
+  margin-bottom: 1rem;
 }
 
-  .skills-bar-container li {
-    position: relative;
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
+.progress-bar {
+  background-color: pink;
+  font-weight: 800;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
 
-    .skills-bar-container li .progressbar-title {
-      font-family: 'Nanum Gothic', sans-serif;
-      color: #777777;
-    }
-
-      .skills-bar-container li .progressbar-title h3 {
-        display: inline-block;
-        font-size: 15px;
-        margin-left: -50%;
-      }
-
-      .skills-bar-container li .progressbar-title .percent {
-        position: absolute;
-        right: 5px;
-      }
-
-    .skills-bar-container li .bar-container {
-      background: #555;
-      position: relative;
-      width: 200%;
-      height: 10px;
-      margin-top: 5px;
-      margin-left: -50%;
-      display: block;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      border-radius: 5px;
-    }
-
-      .skills-bar-container li .bar-container .progressbar {
-        position: absolute;
-        width: 0%;
-        height: 100%;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        border-radius: 5px;
-        -webkit-animation-duration: 2s;
-        animation-duration: 2s;
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-      }
-
-      .skills-bar-container li .bar-container #progress-html {
-        -webkit-animation-name: progress-html;
-        animation-name: progress-html;
-        -webkit-animation-delay: 0.7s;
-        animation-delay: 0.7s;
-      }
-
-      .skills-bar-container li .bar-container #progress-css {
-        -webkit-animation-name: progress-css;
-        animation-name: progress-css;
-        -webkit-animation-delay: 1.4s;
-        animation-delay: 1.4s;
-      }
-
-      .skills-bar-container li .bar-container #progress-javascript {
-        -webkit-animation-name: progress-javascript;
-        animation-name: progress-javascript;
-        -webkit-animation-delay: 2.1s;
-        animation-delay: 2.1s;
-      }
-
-      .skills-bar-container li .bar-container #progress-c {
-        -webkit-animation-name: progress-c;
-        animation-name: progress-c;
-        -webkit-animation-delay: 2.8s;
-        animation-delay: 2.8s;
-      }
-
-      .skills-bar-container li .bar-container #progress-java {
-        -webkit-animation-name: progress-java;
-        animation-name: progress-java;
-        -webkit-animation-delay: 3.4s;
-        animation-delay: 3.4s;
-      }
-
-      .skills-bar-container li .bar-container #progress-angular {
-        -webkit-animation-name: progress-angular;
-        animation-name: progress-angular;
-        -webkit-animation-delay: 4.0s;
-        animation-delay: 4.0s;
-      }
-
-.progresspink {
-  background-color: #EA9FAA;
 }
 
-.progressblue {
-  background-color: #91A8D0;
+.main{
+  text-align: center;
 }
 
-/*.progresspurple {
-  background-color: #9b59b6;
+.btn-fancy{
+  color: darkgrey;
+  font-size: 4em;
+  margin-left: 0.5em;
+
+}
+.btn-fancy:hover {
+  color: cornflowerblue;
+  transition: all .9s ease;
+  -webkit-transition: all .9s ease;
 }
 
-.progressorange {
-  background-color: #ffa500;
+.card {
+  background-color: #f4f1f1;
+  margin-bottom: 1em;
+  /*border-color: #f9ecec;*/
+  border-radius: 30px;
 }
 
-.progressgreen {
-  background-color: #27ae60;
-}*/
-
-@-webkit-keyframes progress-html {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 100%;
-  }
+.companyName{
+  font-size: 1.5em;
+  color: darkgrey;
 }
 
-@-webkit-keyframes progress-css {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 90%;
-  }
+.duration{
+  font-size: 1.10em;
+  color: cornflowerblue;
+}
+.position{
+  font-size: 1.10em;
+  font-style: italic;
 }
 
-@-webkit-keyframes progress-javascript {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 70%;
-  }
+.logo{
+  width: 9em;
+  margin-top: 6em;
 }
 
-@-webkit-keyframes progress-java {
-  0% {
-    width: 0%;
-  }
+.janssenicon{
+  width: 9em;
+  margin-right: -2em;
 
-  100% {
-    width: 55%;
-  }
 }
 
-@-webkit-keyframes progress-c {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 55%;
-  }
+.bmoicon{
+  width: 6em;
+  margin-left: 1em;
 }
 
-@-webkit-keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 65%;
-  }
+.ppgicon{
+  width: 7em;
+  margin-left: 2em;
+}
+.indigoicon{
+  width: 6em;
+  margin-left: 2em;
 }
 
-@-moz-keyframes progress-html {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 100%;
-  }
-}
-
-@-moz-keyframes progress-css {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 90%;
-  }
-}
-
-@-moz-keyframes progress-javascript {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 70%;
-  }
-}
-
-@-moz-keyframes progress-java {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 55%;
-  }
-}
-
-@-moz-keyframes progress-c {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 55%;
-  }
-}
-
-@-moz-keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 65%;
-  }
-}
-
-@keyframes progress-html {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes progress-css {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes progress-javascript {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 70%;
-  }
-}
-
-@keyframes progress-php {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 55%;
-  }
-}
-
-@keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 65%;
-  }
+.lifeicon{
+  width: 7em;
 }
